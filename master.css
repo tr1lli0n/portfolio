@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.wrap{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    border: 0px solid red;
+}
+
+.wrap02{
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+/*--nav--*/
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #FFE57C;
+    position: fixed;
+    z-index: 10;
+}
+
+.menubar{
+    width: 1100px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border: 0px solid rgb(255, 0, 0);
+}
+
+.logo{
+    width: 450px;
+    height: 55px;
+    padding-top: 15px;
+    border: 0px solid rgb(255, 0, 0);
+}
+
+.menu{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #847CFF;
+    letter-spacing: -0.02em;
+    width: 110px;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+    border: 0px solid rgb(255, 0, 0);
+}
+
+.menu:hover{
+    color: #5a53c3;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+
+body{
+    background-color: #fafafa;
+}
+
+/*--main--*/
+
+.container{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(80deg, #847CFF, #695eff);
+}
+
+.graphic{
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+    border: 0px solid red;
+}
+
+.title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 4rem;
+    line-height: 1.4em;
+    color: #ffffff;
+    padding-top: 250px;
+    border: 0px solid red;
+}
+
+
+/*--profile--*/
+
+.title01{
+    position: relative;
+    padding-top: 450px;
+}
+
+.txt01{
+    position: relative;
+    padding-top: 200px;
+}
+
+.txt02{
+    position: relative;
+    padding-top: 200px;
+}
+
+.title02{
+    position: relative;
+    padding-top: 300px;
+}
+
+.txt03{
+    position: relative;
+    padding-top: 200px;
+}
+
+/*--pacakge--*/
+
+.package{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 450px;
+}
+
+.P_mn01{
+    position: relative;
+    padding-top: 250px;
+}
+
+.pack01{
+    position: relative;
+    padding-top: 200px;
+}
+
+.pack02{
+    position: relative;
+    padding-top: 0px;
+}
+
+.P_mn02{
+    position: relative;
+    padding-top: 250px;
+}
+
+.pack03{
+    position: relative;
+    padding-top: 200px;
+}
+
+.pack04{
+    position: relative;
+    padding-top: 0px;
+}
+
+.pack05{
+    position: relative;
+    padding-top: 0px;
+}
+
+.P_mn03{
+    position: relative;
+    padding-top: 250px;
+}
+
+.pack06{
+    position: relative;
+    padding-top: 200px;
+}
+
+.pack07{
+    position: relative;
+    padding-top: 0px;
+}
+
+.pack08{
+    position: relative;
+    padding-top: 0px;
+}
+
+/*--editorial--*/
+
+.editorial{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 450px;
+}
+
+.E_mn01{
+    position: relative;
+    padding-top: 250px;
+}
+
+.edit01{
+    position: relative;
+    padding-top: 200px;
+}
+
+.edit02{
+    position: relative;
+    padding-top: 0px;
+}
+
+.E_mn02{
+    position: relative;
+    padding-top: 250px;
+}
+
+.edit03{
+    position: relative;
+    padding-top: 200px;
+}
+
+.edit04{
+    position: relative;
+    padding-top: 0px;
+}
+
+.E_mn03{
+    position: relative;
+    padding-top: 250px;
+}
+
+.edit05{
+    position: relative;
+    padding-top: 200px;
+}
+
+.edit06{
+    position: relative;
+    padding-top: 0px;
+}
+
+/*--identity--*/
+
+.identity{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 450px;
+}
+
+.I_mn01{
+    position: relative;
+    padding-top: 250px;
+}
+
+.ident01{
+    position: relative;
+    padding-top: 200px;
+}
+
+.ident02{
+    position: relative;
+    padding-top: 100px;
+}
+
+.ident03{
+    position: relative;
+    padding-top: 200px;
+}
+
+.I_mn02{
+    position: relative;
+    padding-top: 250px;
+}
+
+.ident04{
+    position: relative;
+    padding-top: 200px;
+}
+
+.ident05{
+    position: relative;
+    padding-top: 200px;
+}
+
+.I_mn03{
+    position: relative;
+    padding-top: 250px;
+}
+
+.ident06{
+    position: relative;
+    padding-top: 200px;
+}
+
+.ident07{
+    position: relative;
+    padding-top: 200px;
+}
+
+.ident08{
+    position: relative;
+    padding-top: 200px;
+}
+
+/*--uiux--*/
+
+.uiux{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 450px;
+}
+
+.U_mn01{
+    position: relative;
+    padding-top: 250px;
+}
+
+.uiux01{
+    position: relative;
+    padding-top: 200px;
+}
+
+.uiux02{
+    position: relative;
+    padding-top: 0px;
+}
+
+
+.U_mn02{
+    position: relative;
+    padding-top: 250px;
+}
+
+.uiux03{
+    position: relative;
+    padding-top: 200px;
+}
+
+.uiux04{
+    position: relative;
+    padding-top: 0px;
+}
+
+/*--artwork--*/
+
+.artwork{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 450px;
+}
+
+.A_mn01{
+    position: relative;
+    padding-top: 250px;
+}
+
+.A_mn02{
+    position: relative;
+    padding-top: 0px;
+}
+
+.A_mn03{
+    position: relative;
+    padding-top: 0px;
+}
+
+/*--footer--*/
+
+footer{
+    background-color: #847CFF;
+    height: 80px;
+    position: relative;
+    top: 500px;
+}
+
+footer > .footer_wrap{
+    margin: auto;
+    width: 1100px;
+}
+footer > .footer_wrap > .footer_logo{
+    float: left;
+    padding-top: 15px;
+}
+footer > .footer_wrap > .footer_txt{
+    float: right;
+    padding-top: 20px;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: -0.01rem;
+    color: #FFE57C; 
+}
+
+.top_bt{
+    background-image: url('img/web/top01.png');
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 130px;
+    bottom: 100px;
+    width: 5rem;
+    height: 5rem;
+    border: 0px solid red;
+}
+.top_bt:hover{
+    background-image: url('img/web/top02.png')
+}
+
+/*--title animation--*/
+
+.title-word {
+    animation: color-animation 3s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #ffffff;
+    --color-2: #FFE57C;
+    --color-3: #ffffff;
+  }
+  
+  .title-word-2 {
+    --color-1: #FFE57C;
+    --color-2: #ffffff;
+    --color-3: #FFE57C;
+  }
+  
+  .title-word-3 {
+    --color-1: #ffffff;
+    --color-2: #FFE57C;
+    --color-3: #ffffff;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
